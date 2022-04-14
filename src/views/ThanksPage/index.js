@@ -1,13 +1,13 @@
 import { Box } from "@material-ui/core"
 import { Typography } from "@mui/material";
 
-const Catalog = () => {
+const ThanksPage = () => {
     return (
         <Box>
             <Typography>
-                X Catalog page
+                Thanks Page
             </Typography>
         </Box>
     )
 }
-export default Catalog;
+export default ThanksPage;
