@@ -4,12 +4,14 @@ import Product from './views/Product';
 import Catalog from './views/Catalog';
 import ThanksPage from './views/ThanksPage';
 import NotFound from './views/NotFound';
-
+import Header from './components/pages/Header';
+import Footer from './components/pages/Footer';
 
 function Router() {
     return (
         <div>
             <BrowserRouter>
+                <Header />
                 <Routes>
                     <Route path="*" element={<NotFound />} />
                     <Route exact path='/' element={<Home />} />
@@ -17,6 +19,7 @@ function Router() {
                     <Route exact path='/product/:id' element={<Product />} />
                     <Route exact path='/thanks' element={<ThanksPage />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
         </div>
     )

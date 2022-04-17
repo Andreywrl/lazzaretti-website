@@ -7,6 +7,11 @@ const Footer = () => {
             <Typography>
                 This is the Footer component
             </Typography>
+            <Box>
+                <Typography>
+                    Warning about prices, data confirmation, CNPJ and reserved rights.
+                </Typography>
+            </Box>
         </Box>
     )
 }

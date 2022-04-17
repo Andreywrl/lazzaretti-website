@@ -1,9 +1,13 @@
 import { Box, Typography } from "@material-ui/core";
-import React from "react";
 
-function Header() {
+const Header = () => {
     return (
-        <Box sx={{ width: '100%', bgColor: 'blue' }}>
+        <Box>
+            <Box>
+                <Typography>
+                    Acima de R$500,00 o frete é por nossa conta, aproveite!
+                </Typography>
+            </Box>
             <Typography>
                 This is the Header component
             </Typography>
