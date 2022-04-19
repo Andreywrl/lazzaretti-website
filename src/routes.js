@@ -6,6 +6,7 @@ import ThanksPage from './views/ThanksPage';
 import NotFound from './views/NotFound';
 import Header from './components/pages/Header';
 import Footer from './components/pages/Footer';
+import AboutUs from './views/AboutUs';
 
 function Router() {
     return (
@@ -15,6 +16,7 @@ function Router() {
                 <Routes>
                     <Route path="*" element={<NotFound />} />
                     <Route exact path='/' element={<Home />} />
+                    <Route exact path='/aboutus' element={<AboutUs />} />
                     <Route exact path='/catalog/:id' element={<Catalog />} />
                     <Route exact path='/product/:id' element={<Product />} />
                     <Route exact path='/thanks' element={<ThanksPage />} />

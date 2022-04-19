@@ -5,6 +5,7 @@ import FeedBacks from "./FeedBacks";
 import Highlights from "./Highlights";
 import News from "./News";
 import TheGirls from "./TheGirls";
+import Wedding from "./Wedding";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Highlights />
             <Categories />
             <News />
+            <Wedding />
             <TheGirls />
             <FeedBacks />
         </Box>

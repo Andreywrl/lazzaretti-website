@@ -1,15 +1,13 @@
 import { Box } from "@material-ui/core"
 import { Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 
-const NotFound = () => {
+const Gallery = () => {
     return (
         <Box>
             <Typography>
-                NotFound page
+                Gallery page
             </Typography>
-            <Link to="/">Volta pra home</Link>
         </Box>
     )
 }
-export default NotFound;
+export default Gallery;
